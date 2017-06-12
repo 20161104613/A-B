@@ -8,8 +8,13 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main()
+{
+    int A,B;
+    printf("请输入A，B：\n");
+    while(scanf("%d %d",&A,&B)!=EOF)
+    {
+        printf("%d\n",A+B);
+    }
     return 0;
 }
